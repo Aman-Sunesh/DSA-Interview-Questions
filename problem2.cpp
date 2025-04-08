@@ -67,7 +67,7 @@ int braces(const char* A)
         }
     }
 
-    return count;
+    return (count > 0) ? 1 : 0;
 }
 
 int main() {
